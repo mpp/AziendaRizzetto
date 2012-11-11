@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Az. Agr. Rizzetto</title>
+        
+        <!-- Common headers -->
+
+<meta name="description" content="Azienda Agricola Rizzetto - Prosecco di Conegliano e Valdobbiadene" />
+<meta name="keywords" content="Prosecco, Rizzetto, Cantina, Azienda, agricola,  winery, Prosecco, Conegliano, Valdobbiadene, Prosecco di Conegliano e Valdobbiadene, vino, treviso, veneto, italia, prosecco, prozec" />
+
+<!-- Favicon code -->
+<link rel="icon" href="IMAGES/favicon.png" type="image/png" />
+<!--[if IE]>
+    <link rel="shortcut icon" href="favicon.ico" type="image/png" />
+<![endif]-->
+
+<!-- Google web font load -->
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700|Cinzel+Decorative|Cinzel|Playfair+Display+SC' rel='stylesheet' type='text/css'>
+
+<!-- CSS stylesheet link -->
+<link rel="stylesheet" type="text/css" href="CSS/style.css" />
+
+<!-- JQuery includes -->
+<script src="http://code.jquery.com/jquery.js" type="text/javascript"></script>
+<script src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js" type="text/javascript"></script>
+
+<!-- Others common scripts -->
+<script src="JS/mask.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19837745-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>        
+        <script>
+            $(document).ready(function() {
+                $('.pageContent#homeContent, #outerContainer').css('min-height', $(window).height());
+                $('.backBlack').stop().fadeTo(0, 0.75 );
+            });
+        </script>
+    </head>
+    <body>
+        
+        <div id="outerContainer">
+        
+        <div id="topBar">
+    
+    <div class="backBlack"></div>
+    
+    <img id="backTitle" src="IMAGES/backTitle.png" alt="schizzo"/>
+    
+    <div id="logo">
+        <h1 id="title1">Az. Agr.</h1>
+
+        <h1 id="title2"><span>R</span>izzett<span>O</span></h1>
+    </div>
+    
+    <div id="languageSelection">
+        <a href="it_products.html">
+            <img src="IMAGES/ita.gif" alt="italiano" />
+        </a>
+        <a href="en_products.html">
+            <img src="IMAGES/eng.gif" alt="english" />
+        </a>
+        <a href="de_products.html">
+            <img src="IMAGES/deu.gif" alt="deutch" />
+        </a>
+    </div>
+
+    <ul id="topMenu">
+        
+        <li class="topMenuItem active">
+            <a href="de_intro.html">Home</a>
+        </li>
+        
+        <li class="topMenuItemSpace"></li>
+        
+        <li class="topMenuItem notActive">
+            <a href="de_products.html">Produkte</a>
+        </li>
+        
+        <li class="topMenuItemSpace"></li>
+        
+        <li class="topMenuItem notActive">
+            <a href="de_land.html">Land</a>
+        </li>
+        
+        <li class="topMenuItemSpace"></li>
+        
+        <li class="topMenuItem notActive">
+            <a href="de_gallery.html">Gallery</a>
+        </li>
+        
+        <li class="topMenuItemSpace"></li>
+        
+        <li class="topMenuItem notActive">
+            <a href="de_contacts.html">Kontakte</a>
+        </li>
+        
+    </ul> <!-- Top Menu -->
+    
+</div> <!-- Top Bar --><!-- Copyright Michele Marostica - michelemaro@gmail.com-->
+
+<!-- Some images -->
+
+<ul id="bkgallery">
+    <li>
+                <img src="IMAGES/back_1.jpg" id="im1" alt="img" />
+            </li><li>
+                <img src="IMAGES/back_2.jpg" id="im2" alt="img" />
+            </li><li>
+                <img src="IMAGES/back_3.jpg" id="im3" alt="img" />
+            </li><li>
+                <img src="IMAGES/back_4.jpg" id="im4" alt="img" />
+            </li><li>
+                <img src="IMAGES/back_5.jpg" id="im5" alt="img" />
+            </li><li>
+                <img src="IMAGES/back_6.jpg" id="im6" alt="img" />
+            </li><li>
+                <img src="IMAGES/back_7.jpg" id="im7" alt="img" />
+            </li><li>
+                <img src="IMAGES/back_8.jpg" id="im8" alt="img" />
+            </li><li>
+                <img src="IMAGES/back_9.jpg" id="im9" alt="img" />
+            </li><li>
+                <img src="IMAGES/back_10.jpg" id="im10" alt="img" />
+            </li></ul><!-- Copyright Michele Marostica - michelemaro@gmail.com-->
+
+
+<!-- Products page -->
+
+<script>
+$(document).ready(function() {
+    $("#productsMenu li").click( function(){
+        var index = $("#productsMenu li").index(this);
+        
+        $("#productsView li").fadeOut(300);
+        $("#productsMenu li").removeClass('active');
+        
+        $("#productsView li").eq(index).fadeIn(300);
+        $("#productsMenu li").eq(index).addClass('active');
+        
+    });
+});
+</script>
+
+<div class="pageContent" id="productsContent">
+    
+    <div class="backBlack"></div>
+    
+    <hr/>
+    
+    <ul id="productsMenu">
+        <li class="active">
+            Prosecco Spumante D.O.C.G.
+        </li>
+        <li>
+            Prosecco Spumante D.O.C.
+        </li>
+        <li>
+            Vin del Brolo<br/>I.G.T.
+        </li>
+        <li>
+            Rosso Gildo<br/>I.G.T.
+        </li>
+    </ul>
+    
+    <ul id="productsView">
+        <li class="active">
+            <div class="title">
+                <h1>Prosecco Spumante D.O.C.G.</h1>
+                <h2>Prosecco di Conegliano e Valdobbiadene</h2>
+                <h3>Denominazione di Origine Controllata e Garantita</h3>
+            </div>
+            
+            <div class="image">
+                <img src="IMAGES/spumante.png" alt="spumante docg" />
+            </div>
+            
+            <div class="description">
+                <strong>Sorte: </strong> 100% Glera <br />
+<strong> Seehöhe: </strong> 300 Meter über dem Meeresspiegel <br />
+<strong> Bodenbeschaffenheit: </strong> mit Ton-Untergrund aus Sandstein <br />
+<strong> System: </strong> geändert Kapuziner <br />
+<strong> Dichte: </strong> 3.500 Pflanzen pro Hektar <br />
+<strong> Produktion pro Hektar: </strong> 180 q / ha <br />
+<strong> Restzucker: </strong> 14 g / l <br />
+<strong> Formate zur Verfügung: </strong> Pappe - Flasche 0,75 l<br />
+<strong> Hergestellt in Italien </strong>             </div>
+        </li>
+        <li>
+            <div class="title">
+                <h1>Prosecco Spumante D.O.C.</h1>
+                <h2>Prosecco Treviso</h2>
+                <h3>Denominazione di Origine Controllata</h3>
+            </div>
+            
+            <div class="image">
+                <img src="IMAGES/frizzante.png" alt="spumante doc" />
+            </div>
+            
+            <div class="description">
+                <strong> Sorte: </strong> 100% Glera <br />
+<strong> Seehöhe: </strong> 300 Meter über dem Meeresspiegel <br />
+<strong> Bodenbeschaffenheit: </strong> mit Ton-Untergrund aus Sandstein <br />
+<strong> System: </strong> geändert Kapuziner <br />
+<strong> Dichte: </strong> 3.500 Pflanzen pro Hektar <br />
+<strong> Produktion pro Hektar: </strong> 180 q / ha <br />
+<strong> Restzucker: </strong> 14 g / l <br />
+<strong> Formate zur Verfügung: </strong> Pappe - Flasche 0,75 l<br />
+<strong> Hergestellt in Italien </strong>             </div>
+        </li>
+        <li>
+            <div class="title">
+                <h1>Vin del Brolo I.G.T.</h1>
+                <h2>Vino Frizzante</h2>
+                <h3>Indicazione Geografica Tipica</h3>
+            </div>
+            
+            <div class="image">
+                <img src="IMAGES/brolo.png" alt="vin del brolo igt" />
+            </div>
+            
+            <div class="description">
+                <strong> Beschreibung: </strong> Vin del Brolo, Sekt mit einer zweiten Gärung in der Flasche <br />
+<strong> Sorte: </strong> 100% Glera <br />
+<strong> Seehöhe: </strong> 300 Meter über dem Meeresspiegel <br />
+<strong> Bodenbeschaffenheit: </strong> mit Ton-Untergrund aus Sandstein <br />
+<strong> System: </strong> geändert Kapuziner<br />
+<strong> Alkohol: </strong> 10,5% <br />
+<strong> Formate zur Verfügung: </strong> 0,75 l Flasche <br />
+<strong> Hergestellt in Italien </strong>             </div>
+        </li>
+        <li>
+            <div class="title">
+                <h1>Rosso Gildo I.G.T.</h1>
+                <h2>Cabernet Sauvignon</h2>
+                <h3>Indicazione Geografica Tipica</h3>
+            </div>
+            
+            <div class="image">
+                <img src="IMAGES/gildo.png" alt="rosso gildo igt" />
+            </div>
+            
+            <div class="description">
+                <strong> Sorte: </strong> 100% Cabernet Sauvignon <br />
+<strong> Seehöhe: </strong> 150 Meter über dem Meeresspiegel <br />
+<strong> Bodenbeschaffenheit: </strong> mit Ton-Untergrund aus Sandstein <br />
+<strong> System: </strong> Kapuziner<br />
+<strong> Dichte: </strong> 3.500 Pflanzen pro Hektar <br />
+<strong> Produktion pro Hektar: </strong> 60 q / ha <br />
+<strong> Alkohol: </strong> 12,0% <br />
+<strong> Formate zur Verfügung: </strong> 0,75 l Flasche<br />
+<strong> Hergestellt in Italien </strong>             </div>
+        </li>
+    </ul>
+    
+    <hr/>
+</div>
+<div id="legalNotes">
+    
+    <div class="backBlack"></div>
+    
+    <p>
+        © Cantina Rizzetto - Via Canal Nuovo 13 - Col San Martino - 31010 (TV) - ITALY 
+    </p>
+    <p>
+        Tel/fax 0438898213 - Cel 3480554761 - aziendarizzetto@gmail.com
+    </p>
+</div>            
+        </div>
+        
+    </body>
+</html>
