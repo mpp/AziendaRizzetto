@@ -274,6 +274,44 @@ a {
 /*    min-height: 700px;*/
 }
 
+/*GALLERY PAGE*/
+.pageContent#galleryContent {
+    width: 960px;
+    margin: 10px auto;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+    .pageContent#galleryContent div#galleryWrapper{
+        position: relative;
+        display: block;
+        height: 970px;
+        width: 900px;
+        margin: 10px auto;
+    }
+    .pageContent#galleryContent h2{
+        display: block;
+        height: 30px;
+        width: 900px;
+        clear: both;
+    }
+    .pageContent#galleryContent ul.gallery{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 100%;
+    }
+        .pageContent#galleryContent ul.gallery li{
+            display: block;
+            margin: 10px;
+            float: left;
+            width: 130px;
+        }
+            .pageContent#galleryContent ul.gallery li a img{
+                width: 130px;
+            }
+
 /*PRODUCTS PAGE*/
 .pageContent#productsContent ul {
     list-style: none;
