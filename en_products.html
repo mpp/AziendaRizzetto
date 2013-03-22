@@ -50,6 +50,22 @@
                 $('.backBlack').stop().fadeTo(0, 0.75 );
             });
         </script>
+         
+        <script src="JS/jquery.zoom-min.js"></script> 
+        <script> 
+        $(function(){ 
+            $("#zoom-spumante").zoom({url:"IMAGES/spumante-large.png"}); 
+            $("#zoom-frizzante").zoom({url:"IMAGES/frizzante-large.png"}); 
+            $("#zoom-brolo").zoom({url:"IMAGES/brolo-large.png"}); 
+            $("#zoom-gildo").zoom({url:"IMAGES/gildo-large.png"}); 
+        }); 
+        </script> 
+        <script>
+            $(document).ready(function() {
+                $('.pageContent#homeContent, #outerContainer').css('min-height', $(window).height());
+                $('.backBlack').stop().fadeTo(0, 0.75 );
+            });
+        </script>
     </head>
     <body>
         
@@ -185,8 +201,8 @@ $(document).ready(function() {
                 <h3>Denominazione di Origine Controllata e Garantita</h3>
             </div>
             
-            <div class="image">
-                <img src="IMAGES/spumante.png" alt="spumante docg" />
+            <div id="zoom-spumante" class="image">
+                <img src="IMAGES/spumante.png" width="225" height="300" alt="spumante docg" />
             </div>
             
             <div class="description">
@@ -207,8 +223,8 @@ $(document).ready(function() {
                 <h3>Denominazione di Origine Controllata</h3>
             </div>
             
-            <div class="image">
-                <img src="IMAGES/frizzante.png" alt="spumante doc" />
+            <div id="zoom-frizzante" class="image">
+                <img src="IMAGES/frizzante.png" width="225" height="300" alt="spumante doc" />
             </div>
             
             <div class="description">
@@ -229,8 +245,8 @@ $(document).ready(function() {
                 <h3>Indicazione Geografica Tipica</h3>
             </div>
             
-            <div class="image">
-                <img src="IMAGES/brolo.png" alt="vin del brolo igt" />
+            <div id="zoom-brolo"  class="image">
+                <img src="IMAGES/brolo.png" width="225" height="300" alt="vin del brolo igt" />
             </div>
             
             <div class="description">
@@ -250,8 +266,8 @@ $(document).ready(function() {
                 <h3>Indicazione Geografica Tipica</h3>
             </div>
             
-            <div class="image">
-                <img src="IMAGES/gildo.png" alt="rosso gildo igt" />
+            <div id="zoom-gildo"  class="image">
+                <img src="IMAGES/gildo.png" width="225" height="300" alt="rosso gildo igt" />
             </div>
             
             <div class="description">
