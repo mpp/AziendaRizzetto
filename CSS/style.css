@@ -335,7 +335,7 @@ a {
     .pageContent#productsContent ul#productsMenu li {
         float: left;
         width: 215px;
-        height: 70px;
+        height: 80px;
         position: relative;
         text-align: center;
         font-family: 'Cinzel Decorative', cursive;
@@ -343,7 +343,7 @@ a {
         line-height: 26px;
         background-color: #111;
         cursor: pointer;
-        padding: 16px 5px 0 5px;
+        padding: 10px 5px 0 5px;
         overflow: hidden;
     }
     .pageContent#productsContent ul#productsMenu li.active, .pageContent#productsContent ul#productsMenu li:hover {
@@ -398,14 +398,14 @@ a {
             display: block;
             position: absolute;
             top: 0px;
-            width: 225px;
+            width: 250px;
             height: 300px;
         }
         .pageContent#productsContent ul#productsView li div.description {
             display: block;
             position: absolute;
             top: 90px;
-            left: 230px;
+            left: 260px;
             width: 800px;
             height: 210px;
             font-size: 13px;
